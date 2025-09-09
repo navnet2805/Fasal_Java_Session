@@ -7,6 +7,11 @@ DefaultConst()
     System.out.println("this is from default const");
 }
 
+    {
+        System.out.println("non static block");
+    }
+
+
     public static void main(String[] args) {
         DefaultConst obj = new DefaultConst(); //created an object
     }

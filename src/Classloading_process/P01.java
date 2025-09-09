@@ -20,6 +20,7 @@ public class P01 {
     //non-static block
     {
         System.out.println("from non static block");
+        int i = 30; //i is a local variable
     }
 
     public static void meth() //static method
@@ -29,6 +30,7 @@ public class P01 {
 
     public void meth1() //non-static method
     {
+        int i = 20; // i is a local variable
         System.out.println("from non-static method");
     }
 
@@ -38,6 +40,7 @@ public class P01 {
         System.out.println("program started");
         System.out.println("1st line of main method");
 
+        int i = 10; //i is static and local variable
         P01 obj = new P01(); //object creation
 
         obj.meth1();
