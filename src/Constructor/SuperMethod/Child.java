@@ -1,4 +1,4 @@
-package Constructor;
+package Constructor.SuperMethod;
 
 public class Child extends Parent {
 

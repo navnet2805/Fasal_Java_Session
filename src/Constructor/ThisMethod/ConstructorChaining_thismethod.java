@@ -1,4 +1,4 @@
-package Constructor;
+package Constructor.ThisMethod;
 
 public class ConstructorChaining_thismethod {
 
