@@ -37,7 +37,7 @@ public class Program02 extends Program01 {
        System.out.println(child.c);
        System.out.println(child.d);
        child.childSmethod();
-        System.out.println("using child object i am accessing parent members");
+        System.out.println("Single level inheritence: using child object i am accessing parent members");
         System.out.println(child.a);
         System.out.println(child.b);
         child.parentNSmethod();
