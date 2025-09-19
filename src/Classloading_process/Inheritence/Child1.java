@@ -22,4 +22,12 @@ public class Child1 extends Parent1 {
         Child1 obj = new Child1();
         System.out.println(obj.a1);
     }
+
+    /*
+    Class loading process:
+    1. JVM will find for main method.
+    2. All the Static member will be loaded from parent.
+    ............................................Child.
+
+     */
 }
