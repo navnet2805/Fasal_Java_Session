@@ -1,5 +1,7 @@
 package Inheritence.multilevelInheritence;
 
-public class Child2 extends Child1 {
+import Inheritence.Multiple.Parent;
+
+public class Child2 extends Child1{
     int c = 30;
 }

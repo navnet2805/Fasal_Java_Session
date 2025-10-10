@@ -2,6 +2,8 @@ package Method;
 
 public class m01 {
 
+   static int a = 10;
+   final int b=9;
     public static void meth01() //called method
     {
         System.out.println("this is from method body");
