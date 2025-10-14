@@ -4,6 +4,10 @@ public interface Intf_01 {
 
     int a = 10; //static and final
 
+//    Intf_01(){
+//
+//    } ----> constructor is not allowed in interface.
+
     public static void m01()
     {
         System.out.println("Java");
@@ -22,6 +26,10 @@ public interface Intf_01 {
 
     static void m06(){
         System.out.println("From interface static method");
+    }
+
+    public static void main(String[] args) {
+        //new Intf_01(); -- Object creation is not allowed in interface
     }
 
 }

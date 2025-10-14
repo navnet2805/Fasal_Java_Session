@@ -1,6 +1,10 @@
 package Interface;
 
-public class Class_01 implements Intf_01,intf_02{
+public class Class_01 implements Intf_01{
+
+    Class_01(){
+
+    }
 
     public void m02()
     {
@@ -15,6 +19,10 @@ public class Class_01 implements Intf_01,intf_02{
     public void m03()
     {
 
+    }
+
+    public static void main(String[] args) {
+       Class_01 obj = new Class_01();
     }
 
 }
