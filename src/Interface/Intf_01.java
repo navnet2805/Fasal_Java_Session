@@ -2,7 +2,7 @@ package Interface;
 
 public interface Intf_01 {
 
-    int a = 10; //static and final
+     int a = 10; //static and final
 
 //    Intf_01(){
 //
