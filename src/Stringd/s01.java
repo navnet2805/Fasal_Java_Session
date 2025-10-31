@@ -17,6 +17,7 @@ public class s01 {
         System.out.println(s3);
         System.out.println(s4);
 
+        //== operator will compare the reference type to which value and in the same area.
         System.out.println(s==s1);
         System.out.println(s==s2);
         System.out.println(s==s3);
@@ -24,11 +25,11 @@ public class s01 {
         System.out.println(s5==s1);
         System.out.println(s5==s4); //s5 pointing to heap || s4 is pointing to scp area.
 
-//pending:
-//        System.out.println(s.equals(s1));
-//        System.out.println(s.equals(s2));
-//        System.out.println(s.equals(s3));
-//        System.out.println(s.equals(s4));
+        System.out.println("equals()");
+        System.out.println(s.equals(s1)); //false
+        System.out.println(s.equals(s2)); //
+        System.out.println(s.equals(s3)); //true
+        System.out.println(s.equals(s4)); //false
 
 
 
