@@ -1,5 +1,7 @@
 package ArrayProgram;
 
+import java.util.Arrays;
+
 public class Array01 {
     public static void main(String[] args) {
         //primitive type of init and decl
@@ -55,14 +57,38 @@ public class Array01 {
 
         //how to write data into an array for each loop
         int[] a5 = new int[3]; // {5,6,7}
-        int c = 5;
-        int i = 0;
+        int c = 5; //value
+        int i = 0; //index
         for (int y : a5)
         {
+            /*
+            a5[0] = 10;
+            a5[1] = 20;
+            a5[2] = 30;
+             */
             int value = a5[i++] = c++;
             System.out.println(value);
         }
         System.out.println("==================");
+
+        int[] r = {7,3,9,44,22,1,6,6};
+        System.out.println("Before sort " );
+        for (int y : r)
+        {
+            System.out.print(+y+" , ");
+        }
+
+        System.out.println("first element: " +r[0]);
+        System.out.println("last element: " +r[r.length-1]);
+        Arrays.sort(r);
+        System.out.println("After sort " );
+        for (int y : r)
+        {
+            System.out.print(+y+" , ");
+        }
+        System.out.println("largest element: " +r[r.length-1]);
+        System.out.println("smallest element: " +r[0]);
+
 
     }
 }
